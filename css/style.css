@@ -43,14 +43,16 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  justify-content: center; /* Horizontally center children */
+  align-items: center; /* Vertically center children */
+  padding-bottom: 50px;
+  display: flex;
+  
 }
 
 h1,
@@ -92,9 +94,18 @@ p {
   max-width: auto;
   box-sizing: 200px;
   border: 1px solid hsl(220, 15%, 55%);
-  padding: 10px;
-  margin-top: 200px;
+  margin: auto; /* This will center the container in the viewport */
+  position: relative; /* Adjust if needed for positioning context */
+  padding: 20px; /* Adjust the padding as needed */
 }
+
+.qr-code__container h3,
+.qr-code__container p {
+  text-align: center; /* Center the text */
+  padding: 0 20px; /* Add padding on the sides if needed */
+}
+
+
 
 
 /* Style for the QR code image, should be within the qr code container */
@@ -107,12 +118,9 @@ p {
 
 /* Style for the text footer */
 .footer {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  position: relative;
-  bottom: 0;
+  position: absolute; /* Absolute position to place it at the bottom */
+  bottom: 0px; /* Adjust the value as needed to create space from the bottom */
   width: 100%;
   text-align: center;
-  margin-bottom: 40px;
+
 }
