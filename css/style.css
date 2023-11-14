@@ -50,7 +50,7 @@ body {
   box-sizing: border-box;
   justify-content: center; /* Horizontally center children */
   align-items: center; /* Vertically center children */
-  padding-bottom: 50px;
+  padding-bottom: 300px;
   display: flex;
   
 }
@@ -94,7 +94,7 @@ p {
   max-width: auto;
   box-sizing: 200px;
   border: 1px solid hsl(220, 15%, 55%);
-  margin: auto; /* This will center the container in the viewport */
+  margin: 0; /* This will center the container in the viewport */
   position: relative; /* Adjust if needed for positioning context */
   padding: 20px; /* Adjust the padding as needed */
 }
