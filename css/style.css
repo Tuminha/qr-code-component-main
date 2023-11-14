@@ -50,7 +50,7 @@ body {
   box-sizing: border-box;
   justify-content: center; /* Horizontally center children */
   align-items: center; /* Vertically center children */
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   display: flex;
   
 }
