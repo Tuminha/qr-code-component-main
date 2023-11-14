@@ -109,7 +109,7 @@ p {
 .footer {
   margin-left: 10px;
   margin-right: 10px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
